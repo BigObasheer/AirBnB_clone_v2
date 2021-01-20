@@ -9,6 +9,7 @@ def start_flask():
     """ Display Hello HBNB! """
     return ("Hello HBNB!")
 
+
 @app.route('/hbnb', strict_slashes=False)
 def display_hbnb():
     """ Display HBNB """
